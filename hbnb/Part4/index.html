@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBnB - List of Places</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="brand-link" aria-label="HBnB home page">
+                <img src="images/logo.png" alt="HBnB logo" class="logo">
+            </a>
+            <nav class="nav-bar">
+                <a href="index.html">Home</a>
+                <a href="login.html" id="login-link" class="login-button">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Explore Amazing Places</h1>
+            <p>Choose from comfortable stays designed for every type of traveler.</p>
+        </section>
+
+        <section id="filter" class="filter-bar">
+            <label for="price-filter">Max Price:</label>
+            <select id="price-filter"></select>
+        </section>
+
+        <section id="places-list" class="places-grid"></section>
+    </main>
+
+    <footer>
+        <p>All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
